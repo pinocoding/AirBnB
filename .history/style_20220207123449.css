@@ -752,11 +752,9 @@ nav.navbar-white .fa-bars {
         font-size: 22px;
     }
     .house-info {
-        font-size: 18px;
+        font-size: 15px;
     }
-    .house-info i {
-        font-size: 16px;
-    }
+    .house-info i {}
     .stories p {
         font-size: 20px;
     }

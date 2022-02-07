@@ -742,21 +742,6 @@ nav.navbar-white .fa-bars {
     .list-container {
         margin-top: 150px;
     }
-    .left-col,
-    .right-col,
-    .house-img,
-    .house-info {
-        flex-basis: 100%;
-    }
-    .left-col.h1 {
-        font-size: 22px;
-    }
-    .house-info {
-        font-size: 18px;
-    }
-    .house-info i {
-        font-size: 16px;
-    }
     .stories p {
         font-size: 20px;
     }
