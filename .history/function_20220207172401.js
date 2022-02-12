@@ -1,8 +1,9 @@
 var navBar = document.getElementById("navBar");
 var menuIcon = document.querySelector(".menuIcon");
-var navBarLi = document.getElementsByClassName("navtag");
+var navBarLi = document.getElementsB;
 for (var i = 0; i <= navBarLi.length; i++) {
-    console.log(navBarLi[2]);
+    var navTag = navBarLi.[i];
+    console.log(navTag);
 }
 
 menuIcon.onclick = function() {

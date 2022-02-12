@@ -40,7 +40,6 @@ nav {
 
 .nav-links li a:hover {
     border-bottom: 5px solid #ff5361;
-    border-radius: 4px;
 }
 
 .nav-links li a {

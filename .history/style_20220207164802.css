@@ -38,11 +38,6 @@ nav {
     margin: 10px 30px
 }
 
-.nav-links li a:hover {
-    border-bottom: 5px solid #ff5361;
-    border-radius: 4px;
-}
-
 .nav-links li a {
     text-decoration: none;
     color: var(--text-colorWhite);
@@ -673,6 +668,17 @@ nav.navbar-white .fa-bars {
     nav .nav-links li {
         margin: 10px 0;
         display: block;
+        position: relative;
+    }
+    nav .nav-links li:hover {
+        background: #fff;
+        width: 20%;
+        border-radius: 2px;
+        height: 2px;
+        left: -25%;
+        top: 50%;
+        position: absolute;
+        transform: translate(0, -50%);
     }
     .regiser-btn {
         margin: 15px 0 30px;
