@@ -116,11 +116,13 @@ nav {
     font-weight: 600;
 }
 
-#container-tittle {
+#test {
+    text-align: center;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 0;
     right: 0;
+    margin: auto;
     transform: translateY(-50%);
 }
 
