@@ -25,8 +25,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 20px 7%; */
-    padding: 2% 7%;
+    padding: 20px 7%;
 }
 
 .logo {
@@ -71,9 +70,6 @@ nav {
     font-weight: 500;
     color: var(--text-colorWhite);
     text-align: center;
-    padding-top: 10%;
-
-
 }
 
 .search-bar {
@@ -878,7 +874,7 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-/* .navFixed {
+.navFixed {
     position: fixed;
     width: 100%;
     top: 0;
@@ -889,7 +885,7 @@ input:checked+.slider:before {
     align-items: center;
     justify-content: space-between;
     padding: 20px 7%;
-} */
+}
 
 .navFixed .nav-links li a {
     color: white;
@@ -1033,7 +1029,6 @@ input:checked+.slider:before {
     }
     h1 {
         font-size: 25px;
-
     }
     .small-details h2 {
         font-size: 20px;
